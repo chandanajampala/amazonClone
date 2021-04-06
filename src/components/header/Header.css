@@ -1,0 +1,64 @@
+.header {
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    position: sticky; /* to make sure header sticks to the top even after scrolling*/
+    top: 0px;
+    z-index: 100; /* used to overlap */
+}
+.header__logo {
+    width: 100px;
+    object-fit: contain; 
+    /* object fit tells how the content of replaced element should be resized "contain" is 
+    used to retain original proportions of image or video or any replaced element*/
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.header__search {
+    display:flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color:#F3A847;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header__optionLineOne {
+    font-size: 10px;
+}
+.header__optionLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+.header__navcart {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__cart{
+    display:flex;
+    flex-direction: column;
+}
