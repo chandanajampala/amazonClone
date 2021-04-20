@@ -10,8 +10,8 @@
     padding-bottom: 5px;
     align-items: center;
 }
-.subtotal__gift > input {
-    margin: 5px;
+.subtotal__gift__checkbox {
+    margin-right: 5px;
 }
 .subtotal > button {
     background: #F7CA00;

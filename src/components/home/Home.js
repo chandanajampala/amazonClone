@@ -15,15 +15,15 @@ function Home() {
           <Product
              id='1'
             title="name"
-            price="10"
-            rating="3"
+            price={1000}
+            rating={3}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
           <Product
           id='2'
             title="name"
-            price="10"
-            rating="3"
+            price={1000000}
+            rating={1}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
         </div>
@@ -31,22 +31,22 @@ function Home() {
           <Product
           id='3'
             title="name"
-            price="10"
-            rating="3"
+            price={10}
+            rating={4}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
           <Product
             id='4'
             title="name"
-            price="10"
-            rating="3"
+            price={10}
+            rating={3}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
           <Product
           id='5'
             title="name"
-            price="10"
-            rating="3"
+            price={10}
+            rating={3}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
         </div>
@@ -54,8 +54,8 @@ function Home() {
           <Product
           id='6'
             title="name"
-            price="10"
-            rating="3"
+            price={10}
+            rating={3}
             img="https://m.media-amazon.com/images/I/81JNj08oFgL._AC_UL320_.jpg"
           />
         </div>
